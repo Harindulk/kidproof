@@ -1,0 +1,42 @@
+Tiny Tracks – Privacy Policy for Parents and Kids
+Effective 1 June 2026
+
+Puddle Games Ltd ("Puddle Games") makes Tiny Tracks, a train-building game for children aged 4 to 10. Because our players are children, we built Tiny Tracks to collect as little as possible.
+
+For kids: We don't ask for your name, your email or where you live. Your trains stay on your tablet unless a grown-up turns on cloud saves.
+
+1. Who runs Tiny Tracks
+Puddle Games Ltd, 14 Harbour Street, Bristol BS1 4QA, United Kingdom. Email: privacy@puddlegames.example. Phone: +44 117 496 0000.
+
+2. What we collect and why
+- A random install ID created by the game, used only to save progress, fix crashes and count how many times levels are played. We do not use it to follow your child across other apps or websites.
+- Crash reports (device model, operating system version, the line of code that failed), used only to fix bugs.
+- If a parent turns on cloud saves: the parent's email address, used only to send a sign-in link and to contact the parent about the account.
+We do not collect names, photos, voice recordings, contacts or precise location. We do not collect the device advertising identifier.
+
+3. Advertising
+Tiny Tracks has no third-party advertising and no behavioral or targeted ads. We do not build profiles of children.
+
+4. Parental consent
+Before cloud saves are turned on, we ask the parent to confirm their identity with a small card check (we charge and immediately refund £0.30) through our payment provider. Only then do we store the parent's email address.
+
+5. Who we share information with
+We use two service providers, under contracts that require them to keep the information confidential and secure and use it only for us:
+- CrashGuard Inc., which receives crash reports.
+- CloudBox Hosting Ltd, which stores cloud saves in the UK.
+We do not sell or share children's information with anyone else. A parent can agree to cloud saves without agreeing to anything else.
+
+6. Your rights as a parent
+You can ask to see the information we hold about your child, ask us to delete it, or tell us to stop collecting it, by emailing privacy@puddlegames.example from the address linked to the account. We reply within 30 days. Deleting the game removes local data.
+
+7. How long we keep information
+Install IDs and play counts: 13 months, then deleted. Crash reports: 90 days. Cloud saves and the parent's email: until the parent deletes the account, or 24 months after the last sign-in, whichever comes first.
+
+8. Settings
+Tiny Tracks has no chat, no public profiles and no sharing features. Sound and music are the only settings.
+
+9. Security
+Data is encrypted in transit and at rest. Only two named staff can access cloud saves, and we review access every quarter.
+
+10. Changes
+If we change how we handle children's information, we will email parents with cloud saves and ask for fresh consent before the change applies.

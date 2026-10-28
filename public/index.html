@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kidproof · children's privacy check for games and apps</title>
+<meta name="description" content="Paste a game or app privacy policy. Kidproof checks it against COPPA, GDPR Article 8 and the UK Children's Code, quotes the clause behind every verdict and gives you a hash receipt.">
+<link rel="icon" href="mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <a class="brand" href="/"><img src="mark.svg" alt="" width="22" height="22"><span>Kidproof</span></a>
+  <nav><a href="#how">How it works</a><a href="https://github.com/Harindulk/kidproof">Source</a></nav>
+</header>
+
+<main class="col">
+  <div class="title-row">
+    <h1>Children's privacy check</h1>
+    <p class="sub">Paste a game or app privacy policy. Kidproof holds it against COPPA, GDPR Article 8 and the UK Children's Code, quotes the clause behind each verdict and says what to change.</p>
+  </div>
+
+  <form id="form" class="card input">
+    <label for="policy">Privacy policy</label>
+    <textarea id="policy" name="policy" rows="12" spellcheck="false" placeholder="Paste the full policy text here" aria-describedby="policy-hint"></textarea>
+    <div class="input-foot">
+      <p id="policy-hint" class="hint"><span id="count">0</span> of 60,000 characters. The text is sent to Claude for review and not stored.</p>
+      <div class="actions">
+        <span class="try">Try a sample:</span>
+        <button type="button" class="ghost" data-sample="pocket-pets">Pocket Pets Arcade</button>
+        <button type="button" class="ghost" data-sample="tiny-tracks">Tiny Tracks</button>
+        <button type="submit" id="go" class="primary">Check policy</button>
+      </div>
+    </div>
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+  </form>
+
+  <section id="report" class="report" hidden aria-labelledby="r-name">
+    <div class="report-head">
+      <div>
+        <h2 id="r-name"></h2>
+        <p id="r-summary" class="finding"></p>
+      </div>
+      <span id="r-audience" class="pill neutral"></span>
+    </div>
+
+    <div class="stats" aria-label="Verdict counts">
+      <div class="stat"><span class="label">Missing</span><span id="s-missing" class="value"></span></div>
+      <div class="stat"><span class="label">Partly covered</span><span id="s-partial" class="value"></span></div>
+      <div class="stat"><span class="label">Covered</span><span id="s-met" class="value"></span></div>
+      <div class="stat"><span class="label">Quotes found in the policy</span><span id="s-quotes" class="value"></span></div>
+    </div>
+
+    <div class="card strip-card">
+      <div class="card-head">
+        <h3>All twelve requirements</h3>
+        <ul class="legend" aria-hidden="true"><li><i class="sw missing"></i>Missing</li><li><i class="sw partial"></i>Partly covered</li><li><i class="sw met"></i>Covered</li></ul>
+      </div>
+      <ol id="strip" class="strip"></ol>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><h3>What to fix, most serious first</h3></div>
+      <ol id="findings" class="findings"></ol>
+    </div>
+
+    <div class="card receipt">
+      <div class="card-head">
+        <h3>Evidence receipt</h3>
+        <button type="button" id="dl" class="ghost">Download receipt</button>
+      </div>
+      <p class="receipt-note">SHA-256 fingerprints of the exact policy text and this report. Keep the receipt with your compliance records: anyone holding the same text can recompute the hash and show the policy was not changed after the check.</p>
+      <dl id="receipt" class="kv"></dl>
+    </div>
+  </section>
+
+  <section id="how" class="how" aria-labelledby="how-h">
+    <h2 id="how-h">How it works</h2>
+    <div class="how-grid">
+      <p>Twelve requirements drawn from the COPPA Rule (16 CFR Part 312, as amended in 2025), GDPR Articles 8, 12, 13 and 17, and the ICO's Age Appropriate Design Code. The list is fixed in code, so every policy gets the same test.</p>
+      <p>Claude reads the policy once and returns a verdict for each requirement, the clause it relied on, a plain-English reason and a fix. Kidproof then searches the policy for every quote and marks any it cannot find, so an invented clause shows up.</p>
+      <p>The receipt hashes the policy and the report in your browser. It is an automated first pass for indie developers and parents, not legal advice: have a lawyer review anything you ship to children.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="col foot">
+  <span>Kidproof · MIT licence · built for the BLI Legal Tech Hackathon 2</span>
+  <a href="https://github.com/Harindulk/kidproof">github.com/Harindulk/kidproof</a>
+</footer>
+<script src="app.js" type="module"></script>
+</body>
+</html>

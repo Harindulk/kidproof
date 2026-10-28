@@ -1,0 +1,4 @@
+{
+  "outputDirectory": "public",
+  "functions": { "api/check.js": { "maxDuration": 300 } }
+}

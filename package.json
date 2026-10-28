@@ -1,0 +1,15 @@
+{
+  "name": "kidproof",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env server/dev.js",
+    "test": "node --test lib/",
+    "examples": "node --env-file=.env scripts/examples.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0"
+  }
+}

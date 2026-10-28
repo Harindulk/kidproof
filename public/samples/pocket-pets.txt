@@ -1,0 +1,31 @@
+Pocket Pets Arcade – Privacy Policy
+Last updated: 3 March 2026
+
+Brightloop Studio ("we", "us") makes Pocket Pets Arcade, a free mobile game where you hatch, feed and dress up cartoon pets and visit your friends' pet parks. This policy explains how we handle information when you play.
+
+1. Who this game is for
+Pocket Pets Arcade is intended for a general audience. We do not knowingly collect personal information from children under 13. If you are under 13, please ask a parent before playing.
+
+2. Information we collect
+When you play, we automatically collect your device model, operating system, IP address, advertising identifier (IDFA or GAID), in-game progress, purchase history and approximate location based on your IP address. If you create a player profile, we collect your display name and avatar. If you contact support, we collect your email address.
+
+3. How we use information
+We use information to run the game, save your progress, show you personalized ads and offers, measure ad performance, improve the game, and prevent cheating and fraud.
+
+4. Sharing
+We share information with our partners, including advertising networks, analytics providers and mediation platforms, so they can show you ads that may interest you and help us understand how players use the game. These partners may combine this information with information they collect elsewhere. Your display name and pet park are visible to other players.
+
+5. Your choices
+You can reset your advertising identifier in your device settings. You can turn off push notifications at any time.
+
+6. Retention
+We keep information for as long as necessary for the purposes described in this policy.
+
+7. Security
+We use reasonable measures to protect your information, but no system is 100% secure.
+
+8. Changes
+We may update this policy from time to time. Continuing to play means you accept the updated policy.
+
+9. Contact
+Questions? Email us at privacy@brightloop.example.
